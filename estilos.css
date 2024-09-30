@@ -1,0 +1,82 @@
+body {
+    margin-left: 0px auto;
+    margin-right: 0px auto;
+    padding: 0;
+    font-family: Georgia, Times, serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.container {
+    width: 90%;
+    max-width: 970px;
+    padding: 20px;
+    margin: 0px auto; /*centramos el contenido horizontalmente*/
+    text-align: justify;
+    background-color: white;
+}
+
+html{
+    background-color: #B48EAD;
+}
+/* body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2ece7;
+    color: #3e403e;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #B48EAD;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+} */
+
+.MainTitle{
+    color: #8D933D;
+}
+
+.Autor{
+    width: 90%;
+    max-width: 970px;
+    margin: 0px auto; /*centramos el contenido horizontalmente*/
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.Fecha{
+    width: 90%;
+    max-width: 970px;
+    margin: 0px auto; /*centramos el contenido horizontalmente*/
+    text-align: justify;
+    font-size: 12px;
+}
+
+.NomadaStudio{
+    color: #067083;
+}
+
+.Format1{
+    color: #848C3F;
+    font-weight: bold;
+}
+
+.line{
+    height: 2px;
+    background-color: #549CA9;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+}
+
+.date{
+    font-size: small;
+}
