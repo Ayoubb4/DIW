@@ -1,0 +1,23 @@
+# Primera Parte
+
+## Pregunta 1. Sobre listas y enlaces
+
+**1.1** ¿En qué consiste el efecto de "faux columns" o columnas falsas? Pon un ejemplo propio de su utilización.
+
+**1.2** ¿Cuáles son los cinco estados de los enlaces? Crea un ejemplo con HTML y CSS en el que se aprecie el funcionamiento de cada uno de ellos.
+
+**1.3** Pon un ejemplo propio de correcta utilización de cada uno de los tipos de lista, explicando por qué es el tipo más adecuado en cada caso.
+
+## Pregunta 2. Sobre el modelo de cajas
+
+**2.1** ¿En qué propiedad/es del modelo de cajas se pueden aplicar valores negativos? Pon un ejemplo en el que tenga sentido hacerlo.
+
+**2.2** ¿Para qué sirven las propiedades `min-width`, `max-width`, `min-height` y `max-height`? Pon un ejemplo propio de su utilización.
+
+**2.3** Describe el funcionamiento de la propiedad `overflow` y sus posibles valores. Investiga posibles usos de interés de esta propiedad.
+
+## Pregunta 3. Sobre Accesibilidad
+
+**3.1** ¿En qué consiste el Quirks mode? ¿De qué forma hay que tenerlo en cuenta al diseñar nuestras páginas?
+
+**3.2** ¿Cuáles son las principales características que debe tener una página web para ser accesible? Pon ejemplos de cada una de ellas.
