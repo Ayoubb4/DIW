@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-top: 20px;
+    background-color: white;
+  }
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    height: 100px;
+    max-width: 1024px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bolder;
+}

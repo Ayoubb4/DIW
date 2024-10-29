@@ -1,0 +1,258 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #F7E990;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333;
+}
+.menu {
+
+    padding: 30px;
+    align-items: center;
+    border-radius: 10px;
+}
+.border_l {
+    display: inline;
+    padding: 22px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: linear-gradient(white, #acacac);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 13px;
+}
+.border_l:hover {
+    background: #FAC754;
+    color: white;
+}
+.hoja{
+    background-color: #fff;
+    padding: 30px;
+}
+
+.primerparrafo{
+    color: #8C716D;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.primerparrafo1-1{
+    color: #78592C;
+    font-weight: bolder;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #E1D1C1;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #444;
+}
+
+header p {
+    font-size: 18px;
+    color: #666;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+blockquote {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-left: 5px solid #ccc;
+    font-style: italic;
+}
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figcaption {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.listalineasarticulo{
+    list-style-type: none;
+    margin-left: 145px;
+    border-left: 3px solid;
+    border-color: #723400;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    padding: 20px; /* Espaciado */
+}
+
+.footer-content {
+    display: flex;
+    align-items: center; /
+}
+
+.judith {
+    width: 100px; 
+    height: auto; 
+    margin-right: 20px;
+}
+
+
+.bodyrecursos {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #F7E990;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333;
+}
+
+
+
+
+
+.hoja {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #e5e5e5;
+}
+
+.header2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titulo2 {
+    font-size: 24px;
+    color: #444;
+}
+
+.articulorecursos {
+    margin-top: 20px;
+}
+
+
+.lista > li {
+    margin-bottom: 10px;
+}
+
+.lista > li:before {
+    font-weight: bold;
+}
+
+
+.sublista > li {
+    list-style-type:lower-latin;
+}
+
+.sublista > li:before {
+    font-weight: bold;
+}
+
+.sublista-items {
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+.fotoitem:before {
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+.formatodiv {
+    border: 5px solid #FAC754;
+    padding: 15px;
+    margin-top: 10px;
+    background-color:white
+}
+.listalibros {
+    padding-left: 30px;
+}
+
+.footer2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.blogcrecemos {
+    font-style: italic;
+}
+
+.titulosespeciales{
+    color: #723400;
+    text-decoration: underline;
+    text-decoration-style:dotted;
+    text-decoration-color: #723400;
+
+}
+
+.negriton{
+    font-weight: bolder;
+}
+
+.linktecnicas{
+    color: #633F23;
+    font-style: italic;
+}
+
+.titulotecnica{
+    text-align: right;
+    background-color: white;
+}
+
+.tabulacion{
+    text-indent: 40px;
+}
+
+.fotoitemtecnicas{
+    list-style-type: none;
+}
+
+.membrives{
+    text-align: left;
+}
+
+.titulosarticulo{
+    color: #723400;
+    border-bottom: medium dashed;
+}
+
+.letras20{
+    font-size: larger;
+}
+
+.UX{
+
+    font-size: larger;
+    text-decoration: dotted;
+
+}
+
+.cuadradofooter{
+    border: 2px, solid;
+    border-color: #723400;
+    padding: 20px;
+}
