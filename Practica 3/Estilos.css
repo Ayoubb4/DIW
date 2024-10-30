@@ -50,6 +50,10 @@ nav ul li a.activo {
     border-bottom: 5px solid #00da00;
     padding-bottom: 32.45px;
     border-radius: 0;
+    background-color: #004f00;
+    padding-top: 35px;
+    padding-right: 25px ;
+    padding-left: 25px;
 }
 
 nav ul li a:hover {
