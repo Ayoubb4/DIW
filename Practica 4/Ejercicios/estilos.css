@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.cabecera {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+}
+
+.cabecera-contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cabecera .logo img {
+    width: 60px;
+}
+
+.menu-principal ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu-principal ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.menu-principal ul li a:hover {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+.menu-redes-sociales {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.menu-redes-sociales .social-icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 0 5px;
+    background-size: cover;
+    transition: filter 0.3s;
+}
+
+.texto-bienvenida {
+    text-align: center;
+    padding: 60px 20px;
+    background-image: url(../Materiales/materiales/imagenes_practica_final/cabecera1.jpg);
+    color: #333;
+}
+
+.contenido-principal {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.sobre-mi, .portafolio {
+    margin-bottom: 40px;
+}
+
+.portafolio .galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.galeria-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.galeria-item:hover {
+    transform: scale(1.05);
+}
+
+.galeria-item img {
+    width: 100%;
+    height: auto;
+}
+
+.pie-pagina {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.enlaces-footer a {
+    color: #ffcc00;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.enlaces-footer a:hover {
+    text-decoration: underline;
+}
