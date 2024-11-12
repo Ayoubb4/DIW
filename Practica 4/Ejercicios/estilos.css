@@ -4,10 +4,12 @@
     box-sizing: border-box;
 }
 
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Baloo Da 2', 'Roboto', sans-serif;
     color: #333;
 }
+
 
 .cabecera {
     background-color: #333;
@@ -15,24 +17,27 @@ body {
     width: 100%;
 }
 
+
 .cabecera-contenido {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1100px;
     margin: 0 auto;
-    padding: 20px;
 }
+
 
 .cabecera .logo img {
     width: 60px;
 }
+
 
 .menu-principal ul {
     list-style: none;
     display: flex;
     gap: 20px;
 }
+
 
 .menu-principal ul li a {
     color: white;
@@ -42,16 +47,19 @@ body {
     transition: background 0.3s;
 }
 
+
 .menu-principal ul li a:hover {
     background-color: #ffcc00;
     color: #333;
 }
+
 
 .menu-redes-sociales {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
+
 
 .menu-redes-sociales .social-icon {
     width: 30px;
@@ -62,28 +70,93 @@ body {
     transition: filter 0.3s;
 }
 
+
+.pie-pagina {
+    background-color: #333;
+    color: #aaa;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+div.enlaces-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.enlaces-footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.enlaces-footer a:hover {
+    text-decoration: underline;
+}
+
+.nota-pie {
+    color: #666;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.texto-bienvenida2formato {
+    text-align: center;
+    padding: 2%;
+    background-image: url(../Materiales/materiales/imagenes_practica_final/cabecera1.jpg);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.estiloh1{
+    text-shadow: 2px 2px 0px black;
+
+}
+
+.texto-bienvenida2formato .izq {
+    padding-left: 360px;
+    margin-right: 40px;
+}
+
+.texto-bienvenida2formato .dcha h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.texto-bienvenida2formato .dcha p {
+    margin: 0;
+}
+
 .texto-bienvenida {
     text-align: center;
-    padding: 60px 20px;
+    padding: 15%;
     background-image: url(../Materiales/materiales/imagenes_practica_final/cabecera1.jpg);
     color: #333;
 }
-
+/* INDEX ///////////////////////////////////////////////////////////////// */
 .contenido-principal {
     max-width: 1100px;
     margin: 0 auto;
     padding: 20px;
 }
 
+
 .sobre-mi, .portafolio {
     margin-bottom: 40px;
 }
+
 
 .portafolio .galeria {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
 }
+
 
 .galeria-item {
     border: 1px solid #ddd;
@@ -93,29 +166,165 @@ body {
     transition: transform 0.3s;
 }
 
+
 .galeria-item:hover {
     transform: scale(1.05);
 }
+
 
 .galeria-item img {
     width: 100%;
     height: auto;
 }
 
-.pie-pagina {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
+
+span.nombrelogo{
+    text-decoration: none;
+    color: white;
+
+
+}
+
+
+a.fotos_portfolio{
+    color: #ffcc00;
+}
+
+
+/* Diseño ///////////////////////////////////////////////////////////////*/
+.catalogo {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-collapse: collapse;
     margin-top: 20px;
 }
 
-.enlaces-footer a {
-    color: #ffcc00;
-    margin: 0 10px;
-    text-decoration: none;
+h1.catalogo_title{
+    text-align: center;
+    color: grey;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
 }
 
-.enlaces-footer a:hover {
+.catalogo th, .catalogo td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+.catalogo thead th {
+    background-color: #ffcc00;
+    color: #333;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.catalogo tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+.catalogo tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.btn-comprar {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #ffcc00;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.btn-comprar:hover {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ffcc00;
+}
+
+.fotosproductos img {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+/* Inspiracion ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.seccion-inspiracion {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.titulo-inspiracion {
+    font-size: 2.5em;
+    color: #333;
+    font-family: 'Baloo Da 2', sans-serif;
+    margin-bottom: 20px;
+}
+
+.descripcion-inspiracion {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+span.textolinks{
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+.citas-lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+.citas-lista li {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.fuentes-lista {
+    list-style-type:disc;
+    padding: 0;
+}
+
+.fuentes-lista li {
+    margin-bottom: 10px;
+    
+}
+
+.fuentes-lista a {
+    color: #e5cb40;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fuentes-lista a:hover {
     text-decoration: underline;
+}
+
+.codigo-ejemplo {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    border-left: 5px solid #82a100 ;
+    font-family: 'Courier New', monospace;
+    color: #333;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.codigo-ejemplo pre {
+    margin: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
