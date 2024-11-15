@@ -4,19 +4,16 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: 'Baloo Da 2', 'Roboto', sans-serif;
     color: #333;
 }
-
 
 .cabecera {
     background-color: #333;
     color: #fff;
     width: 100%;
 }
-
 
 .cabecera-contenido {
     display: flex;
@@ -26,17 +23,16 @@ body {
     margin: 0 auto;
 }
 
-
 .cabecera .logo img {
     width: 60px;
 }
-
 
 .menu-principal ul {
     list-style: none;
     display: flex;
     gap: 20px;
 }
+
 nav ul li a.activo {
     background-color: #ffcc00;
     color: black;
@@ -49,7 +45,6 @@ nav ul li a.activo {
     border-radius: 5px;
     transition: background 0.3s;
 }
-
 
 .menu-principal ul li a:hover {
     background-color: #ffcc00;
@@ -68,7 +63,7 @@ ul.menu-redes-sociales-dentro {
     gap: 10px;
     list-style: none;
     justify-content: right;
-    padding-top: 110px;
+    padding-top: 150px;
     margin: 0;
 }
 
@@ -82,8 +77,6 @@ ul.menu-redes-sociales-dentro {
     transition: transform 0.5s ease, filter 0.3s ease;
 }
 
-
-
 #facebook {
     background-position: -178.5px -7px;
 }
@@ -92,19 +85,19 @@ ul.menu-redes-sociales-dentro {
     background-position: -178.5px -81px;
 }
 
-#email{
+#email {
     background-position: -7px -7px;
 }
 
-#email:hover{
+#email:hover {
     background-position: -7px -81.5px;
 }
 
-#google{
+#google {
     background-position: -121.5px -6px;
 }
 
-#google:hover{
+#google:hover {
     background-position: -121.5px -80px;
 }
 
@@ -131,7 +124,8 @@ ul.menu-redes-sociales-dentro {
 #github:hover {
     background-position: -408px -81.5px;
 }
-/* ////////////////////////////////////////////////////////////////////////////// */
+
+/* Footer */
 .pie-pagina {
     background-color: #333;
     color: #aaa;
@@ -141,7 +135,7 @@ ul.menu-redes-sociales-dentro {
     font-size: 14px;
 }
 
-div.enlaces-footer {
+.enlaces-footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -165,9 +159,10 @@ div.enlaces-footer {
     margin-top: 10px;
 }
 
+/* Sección de bienvenida */
 .texto-bienvenida2formato {
     text-align: center;
-    background-image: url(../Materiales/materiales/imagenes_practica_final/cabecera1.jpg);
+    background-image: url('../Materiales/materiales/imagenes_practica_final/cabecera1.jpg');
     color: white;
     display: flex;
     align-content: center;
@@ -175,9 +170,8 @@ div.enlaces-footer {
     align-items: center;
 }
 
-.estiloh1{
+.estiloh1 {
     text-shadow: 2px 2px 0px black;
-
 }
 
 .texto-bienvenida2formato .izq {
@@ -197,28 +191,26 @@ div.enlaces-footer {
 .texto-bienvenida {
     text-align: center;
     padding: 15%;
-    background-image: url(../Materiales/materiales/imagenes_practica_final/cabecera1.jpg);
+    background-image: url('../Materiales/materiales/imagenes_practica_final/cabecera1.jpg');
     color: #333;
 }
-/* INDEX ///////////////////////////////////////////////////////////////// */
+
+/* Contenido principal */
 .contenido-principal {
     max-width: 1100px;
     margin: 0 auto;
     padding: 20px;
 }
 
-
 .sobre-mi, .portafolio {
     margin-bottom: 40px;
 }
-
 
 .portafolio .galeria {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
 }
-
 
 .galeria-item {
     border: 1px solid #ddd;
@@ -228,34 +220,27 @@ div.enlaces-footer {
     transition: transform 0.3s;
 }
 
-
 .galeria-item:hover {
     transform: scale(1.05);
     box-shadow: 2px 2px 2px black;
     transition: 0.5s;
 }
 
-
 .galeria-item img {
     width: 100%;
     height: auto;
 }
 
-
-span.nombrelogo{
+span.nombrelogo {
     text-decoration: none;
     color: white;
-
-
 }
 
-
-a.fotos_portfolio{
+a.fotos_portfolio {
     color: #ffcc00;
 }
 
-
-/* Diseño ///////////////////////////////////////////////////////////////*/
+/* Catálogo */
 .catalogo {
     width: 100%;
     max-width: 1100px;
@@ -264,7 +249,7 @@ a.fotos_portfolio{
     margin-top: 20px;
 }
 
-h1.catalogo_title{
+h1.catalogo_title {
     text-align: center;
     color: grey;
     font-size: 50px;
@@ -299,11 +284,10 @@ h1.catalogo_title{
     background-color: #ffcc00;
     color: #333;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 20px;
     font-weight: bold;
     transition: background 0.3s, color 0.3s;
     border: 1px solid transparent;
-    border-radius: 20px;
 }
 
 .btn-comprar:hover {
@@ -319,7 +303,7 @@ h1.catalogo_title{
     background-color: #ffffff;
 }
 
-/* Inspiracion ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Inspiración */
 .seccion-inspiracion {
     max-width: 1100px;
     margin: 0 auto;
@@ -340,7 +324,26 @@ h1.catalogo_title{
     margin-bottom: 20px;
 }
 
-span.textolinks{
+.inspiracion-quote {
+    background-color: #f9f6eb;
+    border-right: 8px solid yellow;
+    padding: 20px;
+    font-size: 1.2em;
+    font-style: italic;
+    color: #333;
+    margin: 20px 0;
+    margin-left: 200px;
+    text-align: center;
+    position: relative;
+}
+
+.inspiracion-quote blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+
+span.textolinks {
     text-decoration: none;
     color: black;
     font-weight: normal;
@@ -351,19 +354,28 @@ span.textolinks{
     padding: 0;
 }
 
-.citas-lista li {
+.citas-lista-logo {
     font-style: italic;
-    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+.citas-lista-logo::before {
+    content: "";
+    background-image: url('../Materiales/materiales/imagenes_practica_final/libro.png');
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
 }
 
 .fuentes-lista {
-    list-style-type:disc;
+    list-style-type: disc;
     padding: 0;
 }
 
 .fuentes-lista li {
     margin-bottom: 10px;
-    
 }
 
 .fuentes-lista a {
@@ -380,7 +392,7 @@ span.textolinks{
     background-color: #f4f4f4;
     padding: 20px;
     border-radius: 5px;
-    border-left: 5px solid #82a100 ;
+    border-left: 5px solid #82a100;
     font-family: 'Courier New', monospace;
     color: #333;
     margin-top: 20px;
@@ -391,4 +403,9 @@ span.textolinks{
     margin: 0;
     white-space: pre-wrap;
     word-wrap: break-word;
+}
+
+
+.tituloscode{
+    text-decoration: underline;
 }
