@@ -46,8 +46,61 @@
         </div>
     </header>
 
-<main class="contenido-principal">
+<main class="form-container">
+    <form class="formcontact">
+        <h1>Contactar</h1>
+        
+        <fieldset>
+            <legend>Datos personales:</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
 
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Escribe tus apellidos" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Escribe tu email" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Escribe tu teléfono" required>
+
+            <label for="nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="nacimiento" name="nacimiento" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Otros datos:</legend>
+            <label for="motivo">Por qué quieres contactar:</label>
+            <select id="motivo" name="motivo" required>
+                <option value="" disabled selected>Selecciona una opción</option>
+                <option value="proyecto">Ofrecer un proyecto</option>
+                <option value="consulta">Consulta general</option>
+                <option value="soporte">Soporte técnico</option>
+            </select>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+
+            <div class="checkbox-group">
+                <label class="custom-checkbox">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <span class="textocheck">Apuntarme al boletín de noticias</span>
+                </label>
+                <label class="custom-checkbox">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    <span class="textocheck">¿Aceptas las condiciones de privacidad?</span>
+                </label>
+            </div>
+            
+        </fieldset>
+
+        <div class="button-group">
+            <button type="submit" class="btn enviar">Enviar</button>
+            <button type="reset" class="btn borrar">Borrar datos</button>
+        </div>
+    </form>
 </main>
 
 
