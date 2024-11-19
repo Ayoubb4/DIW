@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +9,12 @@
 
     <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
     <header class="cabecera">
         <div class="cabecera-contenido">
-            <a href="Index.html" class="logo">
-                <img src="/Practica 4/Materiales/materiales/imagenes_practica_final/logo_ico.png" alt="Logo">
+            <a  class="headerformat" href="Index.html" class="logo">
+                <img src="/Practica 4/Materiales/materiales/imagenes_practica_final/logo_peq.png" alt="Logo">
                 <span class="nombrelogo">Ayoub Misbah Fatouh</span>
             </a>
             <nav class="menu-principal">
@@ -20,7 +22,7 @@
                     <li><a title="Inicio" href="Index.html">Inicio</a></li>
                     <li><a title="Diseño Gráfico" href="Diseño.html">Diseño gráfico</a></li>
                     <li><a title="Inspiracion" href="Inspiracion.html">Inspiración</a></li>
-                    <li><a title="Sobre Mí" href="SobreMi.html">Sobre mí</a></li>
+                    <li><a title="Sobre Mí" href="#">Sobre mí</a></li>
                     <li><a class="activo" title="Contactar" href="Contactar.html">Contactar</a></li>
                 </ul>
             </nav>
@@ -29,97 +31,116 @@
         <div class="texto-bienvenida2formato">
             <div class="izq">
                 <a href="Index.html" class="logo"><img src="/Practica 4/Materiales/materiales/imagenes_practica_final/logo.png" alt="Logo"></a>
-                   
+
             </div>
             <div class="dcha">
                 <h1 class="estiloh1">Portafolio personal de Ayoub Misbah Fatouh</h1>
                 <p class="estiloh1">Diseñador multimedia</p>
-            </div> 
+            </div>
             <ul class="menu-redes-sociales-dentro">
-                <li><a href="#" id="facebook" class="icono-red"></a></li>
-                <li><a href="#" id="email" class="icono-red"></a></li>
-                <li><a href="#" id="google" class="icono-red"></a></li>
-                <li><a href="#" id="twitter" class="icono-red"></a></li>
-                <li><a href="#" id="linkedin" class="icono-red"></a></li>
-                <li><a href="#" id="github" class="icono-red"></a></li>
-            </ul>        
+                <li>
+                    <a href="#" id="facebook" class="icono-red"></a>
+                </li>
+                <li>
+                    <a href="#" id="email" class="icono-red"></a>
+                </li>
+                <li>
+                    <a href="#" id="google" class="icono-red"></a>
+                </li>
+                <li>
+                    <a href="#" id="twitter" class="icono-red"></a>
+                </li>
+                <li>
+                    <a href="#" id="linkedin" class="icono-red"></a>
+                </li>
+                <li>
+                    <a href="#" id="github" class="icono-red"></a>
+                </li>
+            </ul>
         </div>
     </header>
 
-<main class="form-container">
-    <form class="formcontact">
-        <h1>Contactar</h1>
-        
-        <fieldset>
-            <legend>Datos personales:</legend>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+    <main class="form-container">
+        <form class="formcontact">
+            <h1>Contactar</h1>
+            <fieldset>
+                <div class="legend-container">
+                    <legend><h2>Datos personales:</h2></legend>
+                    <div class="linea-derecha"></div>
+                  </div>
+                <label for="nombre">Nombre:<input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required></label>
+                
 
-            <label for="apellidos">Apellidos:</label>
-            <input type="text" id="apellidos" name="apellidos" placeholder="Escribe tus apellidos" required>
+                <label for="apellidos">Apellidos: <input type="text" id="apellidos" name="apellidos" placeholder="Escribe tus apellidos" required></label>
+                
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Escribe tu email" required>
+                <label for="email">Email:<input type="email" id="email" name="email" placeholder="Escribe tu email" required></label>
+                
 
-            <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono" placeholder="Escribe tu teléfono" required>
+                <label for="telefono">Teléfono: <input type="tel" id="telefono" name="telefono" placeholder="Escribe tu teléfono" required></label>
+                
 
-            <label for="nacimiento">Fecha de nacimiento:</label>
-            <input type="date" id="nacimiento" name="nacimiento" required>
-        </fieldset>
+                <label for="nacimiento">Fecha de nacimiento:<input type="date" id="nacimiento" name="nacimiento" required></label>
+                
+            </fieldset>
 
-        <fieldset>
-            <legend>Otros datos:</legend>
-            <label for="motivo">Por qué quieres contactar:</label>
-            <select id="motivo" name="motivo" required>
-                <option value="" disabled selected>Selecciona una opción</option>
-                <option value="proyecto">Ofrecer un proyecto</option>
-                <option value="consulta">Consulta general</option>
-                <option value="soporte">Soporte técnico</option>
-            </select>
+            <fieldset>
+                <div class="legend-container">
+                    <legend><h2>Otros datos:</h2></legend>
+                    <div class="linea-derecha"></div>
+                  </div>
+                <label for="motivo">Por qué quieres contactar:<select id="motivo" name="motivo" required>
+                    <option value="" disabled selected>Selecciona una opción</option>
+                    <option value="proyecto">Ofrecer un proyecto</option>
+                    <option value="consulta">Consulta general</option>
+                    <option value="soporte">Soporte técnico</option>
+                </select></label>
+                
 
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje" required></textarea>
-
-            <div class="checkbox-group">
-                <label class="custom-checkbox">
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                    <span class="textocheck">Apuntarme al boletín de noticias</span>
+                <label for="mensaje">Mensaje:                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje" required></textarea>
                 </label>
-                <label class="custom-checkbox">
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                    <span class="textocheck">¿Aceptas las condiciones de privacidad?</span>
-                </label>
+
+                <div class="checkbox-group">
+                    <label class="custom-checkbox">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        <span class="textocheck">Apuntarme al boletín de noticias</span>
+                    </label>
+                    <label class="custom-checkbox">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        <span class="textocheck">¿Aceptas las condiciones de privacidad?</span>
+                    </label>
+                </div>
+            </fieldset>
+
+            <div class="button-group">
+                <button type="submit" class="btn enviar">Enviar</button>
             </div>
-            
-        </fieldset>
+            <div class="button-group">
+                <button type="reset" class="btn borrar">Borrar datos</button>
+            </div>
+        </form>
+    </main>
 
-        <div class="button-group">
-            <button type="submit" class="btn enviar">Enviar</button>
-            <button type="reset" class="btn borrar">Borrar datos</button>
+
+    <footer class="pie-pagina">
+        <div class="enlaces-footer">
+            <ul class="listasul">
+                <li><a href="Diseño.html">Diseño gráfico</a></li>
+                <li><a href="Inspiracion.html">Inspiración</a></li>
+                <li><a href="SobreMi.html">Sobre mí</a></li>
+                <li><a href="Contactar.html">CONTACTAR</a></li>
+            </ul>
+            <ul class="listasul">
+                <li><a href="PoliticaCookies.html">Política de cookies</a></li>
+                <li><a href="AvisoLegal.html">Aviso legal</a></li>
+                <li><a href="MapaSitio.html">Mapa del sitio</a></li>
+                <li><a href="#top">Ir al comienzo</a></li>
+            </ul>
         </div>
-    </form>
-</main>
-
-
-<footer class="pie-pagina">
-    <div class="enlaces-footer">
-        <ul class="listasul">
-            <li><a href="Diseño.html">Diseño gráfico</a></li>
-            <li><a href="Inspiracion.html">Inspiración</a></li>
-            <li><a href="SobreMi.html">Sobre mí</a></li>
-            <li><a href="Contactar.html">CONTACTAR</a></li>
-        </ul>
-        <ul class="listasul">
-            <li><a href="PoliticaCookies.html">Política de cookies</a></li>
-            <li><a href="AvisoLegal.html">Aviso legal</a></li>
-            <li><a href="MapaSitio.html">Mapa del sitio</a></li>
-            <li><a href="#top">Ir al comienzo</a></li>
-        </ul>
-    </div>
-    <p class="nota-pie">Todas las imágenes son procedentes de bancos de imágenes de libre distribución</p>
-</footer>
+        <p class="nota-pie">Todas las imágenes son procedentes de bancos de imágenes de libre distribución</p>
+    </footer>
 </body>
+
 </html>

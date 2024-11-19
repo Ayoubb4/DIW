@@ -15,6 +15,10 @@ body {
     width: 100%;
 }
 
+.headerformat{
+    text-decoration: none;
+}
+
 .cabecera-contenido {
     display: flex;
     justify-content: space-between;
@@ -125,9 +129,12 @@ ul.menu-redes-sociales-dentro {
     background-position: -408px -81.5px;
 }
 
+
 /* Footer */
+
 .pie-pagina {
-    background-color: rgb(61, 61, 60); /* Fondo oscuro */
+    background-color: rgb(61, 61, 60);
+    /* Fondo oscuro */
     text-align: center;
     padding: 30px;
     color: #fff;
@@ -135,36 +142,49 @@ ul.menu-redes-sociales-dentro {
 
 .enlaces-footer {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    gap: 50px; /* Espacio entre las columnas */
+    justify-content: center;
+    /* Centra horizontalmente */
+    gap: 50px;
+    /* Espacio entre las columnas */
 }
 
 .listasul {
-    list-style-type: none; /* Sin viñetas */
+    list-style-type: none;
+    /* Sin viñetas */
     padding: 0;
 }
 
 .listasul li {
-    margin-bottom: 10px; /* Espacio entre enlaces */
+    margin-bottom: 10px;
+    /* Espacio entre enlaces */
 }
 
 .listasul li a {
-    color: yellow; /* Color del texto */
-    text-decoration: underline; /* Subrayado */
-    font-style: italic; /* Cursiva */
-    font-weight: normal; /* Peso normal */
+    color: yellow;
+    /* Color del texto */
+    text-decoration: underline;
+    /* Subrayado */
+    font-style: italic;
+    /* Cursiva */
+    font-weight: normal;
+    /* Peso normal */
 }
 
 .listasul li a:hover {
-    text-decoration: none; /* Quitar subrayado al pasar el mouse */
+    text-decoration: none;
+    /* Quitar subrayado al pasar el mouse */
 }
 
 .nota-pie {
-    color: #666; /* Texto gris */
+    color: #666;
+    /* Texto gris */
     font-size: 12px;
     margin-top: 20px;
 }
+
+
 /* Sección de bienvenida */
+
 .texto-bienvenida2formato {
     text-align: center;
     background-image: url('../Materiales/materiales/imagenes_practica_final/cabecera1.jpg');
@@ -200,14 +220,17 @@ ul.menu-redes-sociales-dentro {
     color: #333;
 }
 
+
 /* Contenido principal */
+
 .contenido-principal {
     max-width: 1100px;
     margin: 0 auto;
     padding: 20px;
 }
 
-.sobre-mi, .portafolio {
+.sobre-mi,
+.portafolio {
     margin-bottom: 40px;
 }
 
@@ -240,7 +263,7 @@ ul.menu-redes-sociales-dentro {
 }
 
 span.nombrelogo {
-    text-decoration: none;
+    text-decoration: none black;
     color: white;
 }
 
@@ -248,7 +271,9 @@ a.fotos_portfolio {
     color: #ffcc00;
 }
 
+
 /* Catálogo */
+
 .catalogo {
     width: 100%;
     max-width: 1100px;
@@ -265,7 +290,8 @@ h1.catalogo_title {
     font-weight: bold;
 }
 
-.catalogo th, .catalogo td {
+.catalogo th,
+.catalogo td {
     padding: 10px;
     text-align: left;
     border-bottom: 1px solid black;
@@ -311,7 +337,9 @@ h1.catalogo_title {
     background-color: #ffffff;
 }
 
+
 /* Inspiración */
+
 .seccion-inspiracion {
     max-width: 1100px;
     margin: 0 auto;
@@ -349,7 +377,6 @@ h1.catalogo_title {
     margin: 0;
     padding: 0;
 }
-
 
 span.textolinks {
     text-decoration: none;
@@ -396,6 +423,11 @@ span.textolinks {
     text-decoration: underline;
 }
 
+.downtextlink{
+    color: #e5cb40;
+    text-decoration: underline;
+    font-weight: bold;
+}
 .codigo-ejemplo {
     background-color: #f4f4f4;
     padding: 20px;
@@ -413,19 +445,30 @@ span.textolinks {
     word-wrap: break-word;
 }
 
-
-.tituloscode{
+.tituloscode {
     text-decoration: underline;
 }
 
 
 /* Formulario */
 
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .custom-checkbox {
-    position: relative;
-    cursor: pointer;
-    width: 24px;
-    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.textocheck {
+    margin: 0;
+    line-height: 1;
+    display: inline;
 }
 
 .custom-checkbox input {
@@ -434,12 +477,12 @@ span.textolinks {
 }
 
 .checkmark {
-    width: 100%;
-    height: 100%;
+    width: 30px;
+    height: 30px;
     background-color: #fff;
-    border: 5px solid #000;
+    border: 2px solid #000;
     display: flex;
-    justify-content: center;    
+    justify-content: center;
     align-items: center;
 }
 
@@ -449,33 +492,25 @@ span.textolinks {
     display: none;
     width: 10px;
     height: 40px;
-    border: solid red;
-    border-width: 0 3px 3px 0;
+    border: solid green;
+    border-width: 0 5px 5px 0;
     transform: rotate(45deg);
 }
 
-.custom-checkbox input:checked + .checkmark:after {
+.custom-checkbox input:checked+.checkmark:after {
     display: block;
     margin-bottom: 17px;
     margin-left: 15px;
-}
-
-.textocheck {
-    display: inline-block;
-    font-size: 16px;
-    color: #000;
 }
 
 .form-container {
     width: 100%;
     max-width: 600px;
     padding: 20px;
-    background-color: #ffcc00;
+    background-color: #e8c841;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    margin: 50px auto;
 }
 
 .formcontact h1 {
@@ -484,37 +519,76 @@ span.textolinks {
     color: #333;
 }
 
+input::placeholder,
+textarea::placeholder {
+    color: rgb(192, 192, 1);
+    font-weight: bold;
+    opacity: 1;
+}
+
 fieldset {
     border: none;
     margin-bottom: 20px;
+    position: relative;
 }
-
+.legend-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: normal;
+  }
 legend {
     font-weight: bold;
     margin-bottom: 10px;
-    display: block;
+    display: inline-block;
+    margin-right: 10px;
+
 }
 
 label {
-    display: block;
+    display: flex;
     margin-bottom: 5px;
     font-weight: bold;
+    justify-content: space-between;
 }
-
-input, select, textarea {
-    width: calc(100% - 20px);
+input,
+select,
+textarea {
     margin-bottom: 15px;
+    display: flex;
+    padding-left: 10px;
     padding: 10px;
+    width: 60%;
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+
+select {
+    background-color: #fff;
+    align-items: center;
+    color: rgb(192, 192, 1);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 60%;
+}
+textarea#mensaje{
+    padding-bottom: 100px;
+}
+
+select option {
+    background-color: #fff;
+    color: rgb(192, 192, 1);
 }
 
 textarea {
     resize: none;
 }
 
-input:focus, select:focus, textarea:focus {
+input:focus,
+select:focus,
+textarea:focus {
     outline: none;
     border-color: #007bff;
     box-shadow: 0 0 5px #007bff;
@@ -537,6 +611,8 @@ button {
 button.enviar {
     background-color: green;
     color: white;
+    width: 100%;
+    margin: 5px;
 }
 
 button.enviar:hover {
@@ -544,11 +620,30 @@ button.enviar:hover {
 }
 
 button.borrar {
-    background-color: red;
+    background-color: #ff005278;
     color: white;
+    width: 100%;
+    margin: 5px;
+
 }
 
 button.borrar:hover {
     background-color: #8b0000;
 }
 
+input#nacimiento{
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    width: 60%;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #e8c841;
+}
+
+.linea-derecha {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #000;
+    margin-left: 10px; 
+}
