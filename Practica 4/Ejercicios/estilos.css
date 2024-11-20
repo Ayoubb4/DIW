@@ -1,21 +1,24 @@
+/* =================== REINICIO DE ESTILOS =================== */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* =================== ESTILO GLOBAL =================== */
 body {
     font-family: 'Baloo Da 2', 'Roboto', sans-serif;
     color: #333;
 }
 
+/* =================== CABECERA =================== */
 .cabecera {
     background-color: #333;
     color: #fff;
     width: 100%;
 }
 
-.headerformat{
+.headerformat {
     text-decoration: none;
 }
 
@@ -31,6 +34,7 @@ body {
     width: 60px;
 }
 
+/* =================== MENÚ PRINCIPAL =================== */
 .menu-principal ul {
     list-style: none;
     display: flex;
@@ -55,7 +59,9 @@ nav ul li a.activo {
     color: #333;
 }
 
-ul.menu-redes-sociales {
+/* =================== REDES SOCIALES =================== */
+ul.menu-redes-sociales,
+ul.menu-redes-sociales-dentro {
     display: flex;
     gap: 10px;
     list-style: none;
@@ -63,10 +69,6 @@ ul.menu-redes-sociales {
 }
 
 ul.menu-redes-sociales-dentro {
-    display: flex;
-    gap: 10px;
-    list-style: none;
-    justify-content: right;
     padding-top: 150px;
     margin: 0;
 }
@@ -84,7 +86,6 @@ ul.menu-redes-sociales-dentro {
 #facebook {
     background-position: -178.5px -7px;
 }
-
 #facebook:hover {
     background-position: -178.5px -81px;
 }
@@ -92,7 +93,6 @@ ul.menu-redes-sociales-dentro {
 #email {
     background-position: -7px -7px;
 }
-
 #email:hover {
     background-position: -7px -81.5px;
 }
@@ -100,7 +100,6 @@ ul.menu-redes-sociales-dentro {
 #google {
     background-position: -121.5px -6px;
 }
-
 #google:hover {
     background-position: -121.5px -80px;
 }
@@ -108,7 +107,6 @@ ul.menu-redes-sociales-dentro {
 #twitter {
     background-position: -292.5px -7px;
 }
-
 #twitter:hover {
     background-position: -292.5px -82px;
 }
@@ -116,7 +114,6 @@ ul.menu-redes-sociales-dentro {
 #linkedin {
     background-position: -350.5px -7px;
 }
-
 #linkedin:hover {
     background-position: -350.5px -81.5px;
 }
@@ -124,17 +121,13 @@ ul.menu-redes-sociales-dentro {
 #github {
     background-position: -408px -7px;
 }
-
 #github:hover {
     background-position: -408px -81.5px;
 }
 
-
-/* Footer */
-
+/* =================== PIE DE PÁGINA =================== */
 .pie-pagina {
     background-color: rgb(61, 61, 60);
-    /* Fondo oscuro */
     text-align: center;
     padding: 30px;
     color: #fff;
@@ -143,48 +136,36 @@ ul.menu-redes-sociales-dentro {
 .enlaces-footer {
     display: flex;
     justify-content: center;
-    /* Centra horizontalmente */
     gap: 50px;
-    /* Espacio entre las columnas */
 }
 
 .listasul {
     list-style-type: none;
-    /* Sin viñetas */
     padding: 0;
 }
 
 .listasul li {
     margin-bottom: 10px;
-    /* Espacio entre enlaces */
 }
 
 .listasul li a {
     color: yellow;
-    /* Color del texto */
     text-decoration: underline;
-    /* Subrayado */
     font-style: italic;
-    /* Cursiva */
     font-weight: normal;
-    /* Peso normal */
 }
 
 .listasul li a:hover {
     text-decoration: none;
-    /* Quitar subrayado al pasar el mouse */
 }
 
 .nota-pie {
     color: #666;
-    /* Texto gris */
     font-size: 12px;
     margin-top: 20px;
 }
 
-
-/* Sección de bienvenida */
-
+/* =================== SECCIÓN BIENVENIDA =================== */
 .texto-bienvenida2formato {
     text-align: center;
     background-image: url('../Materiales/materiales/imagenes_practica_final/cabecera1.jpg');
@@ -204,11 +185,7 @@ ul.menu-redes-sociales-dentro {
     margin-right: 40px;
 }
 
-.texto-bienvenida2formato .dcha h1 {
-    margin: 0;
-    font-size: 1.5em;
-}
-
+.texto-bienvenida2formato .dcha h1,
 .texto-bienvenida2formato .dcha p {
     margin: 0;
 }
@@ -220,9 +197,7 @@ ul.menu-redes-sociales-dentro {
     color: #333;
 }
 
-
-/* Contenido principal */
-
+/* =================== CONTENIDO PRINCIPAL =================== */
 .contenido-principal {
     max-width: 1100px;
     margin: 0 auto;
@@ -234,6 +209,7 @@ ul.menu-redes-sociales-dentro {
     margin-bottom: 40px;
 }
 
+/* Galería */
 .portafolio .galeria {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -271,9 +247,7 @@ a.fotos_portfolio {
     color: #ffcc00;
 }
 
-
-/* Catálogo */
-
+/* =================== CATÁLOGO =================== */
 .catalogo {
     width: 100%;
     max-width: 1100px;
@@ -282,7 +256,7 @@ a.fotos_portfolio {
     margin-top: 20px;
 }
 
-h1.catalogo_title {
+h2.catalogo_title {
     text-align: center;
     color: grey;
     font-size: 50px;
@@ -336,10 +310,7 @@ h1.catalogo_title {
     border-radius: 5px;
     background-color: #ffffff;
 }
-
-
-/* Inspiración */
-
+/* =================== INSPIRACIÓN =================== */
 .seccion-inspiracion {
     max-width: 1100px;
     margin: 0 auto;
@@ -423,15 +394,15 @@ span.textolinks {
     text-decoration: underline;
 }
 
-.downtextlink{
+.downtextlink {
     color: #e5cb40;
     text-decoration: underline;
     font-weight: bold;
 }
+
 .codigo-ejemplo {
     background-color: #f4f4f4;
     padding: 20px;
-    border-radius: 5px;
     border-left: 5px solid #82a100;
     font-family: 'Courier New', monospace;
     color: #333;
@@ -442,15 +413,14 @@ span.textolinks {
 .codigo-ejemplo pre {
     margin: 0;
     white-space: pre-wrap;
-    word-wrap: break-word;
 }
 
 .tituloscode {
     text-decoration: underline;
+    font-size: 2em;
+    float: left;
 }
-
-
-/* Formulario */
+/* =================== CONTACTAR =================== */
 
 .checkbox-group {
     display: flex;
