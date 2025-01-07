@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa; /* Color de fondo suave */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+/* Imagen de perfil */
+.img-fluid.rounded-circle {
+    border: 3px solid #17a2b8; /* Borde alrededor de la imagen */
+    padding: 5px;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+/* Tarjetas */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para realzar */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+.card-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-body {
+    font-size: 1rem;
+}
+
+/* Botones */
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    font-size: 1rem;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+/* Formularios */
+.form-control {
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    border-color: #17a2b8;
+    box-shadow: 0 0 5px rgba(23, 162, 184, 0.5);
+}
