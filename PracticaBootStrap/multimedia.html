@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Perfil</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Perfil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Ajustes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="multimedia.html">Multimedia</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="row mt-3">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header bg-secondary text-white">
+                        Actualizar Datos
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="YouTube">Video Youtube</label><br>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/Zcb8yPEItwA?si=AuF6I7MoHt1rdEiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                         
+                            </div>
+                            <div class="form-group">
+                                <label for="audio">Audio</label><br>
+                                <audio controls>
+                                    <source src="../PracticaBootStrap/Ayoubb-FAMA.mp3" type="audio/mp3">
+                                    Tu navegador no soporta audio.
+                                </audio>                            
+                            </div>
+
+                            <div class="form-group">
+                                <label for="video">Video</label><br>
+                                <video width="640" height="360" controls>
+                                    <source src="../PracticaBootStrap/Top5polishperson.mp4" type="video/mp4">
+                                    Tu navegador no soporta videos.
+                                </video>  
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
